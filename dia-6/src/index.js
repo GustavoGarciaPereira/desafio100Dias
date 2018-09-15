@@ -11,7 +11,6 @@ class Input extends Component{
             this.setState({nome:ev.target.value});
         };
     }
-
     render(){
         return (
             <div>
@@ -25,7 +24,4 @@ class Input extends Component{
         );
     }
 }
-
-
-
 ReactDOM.render(<Input />,document.getElementById('root'));

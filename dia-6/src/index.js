@@ -18,7 +18,6 @@ class Input extends Component{
                 value = {this.state.nome}
                 onChange = {this.onChange} 
                 type = "text"/>
-                
                 <br/>Nome informado {this.state.nome}!
             </div>
         );

@@ -25,9 +25,7 @@ export default class Home extends Component {
                     <HomeCard title = {this.HomeCardReleases.title}
                     text = {this.HomeCardReleases.text}
                     action = {this.HomeCardReleases.action}/>
-
                     <HomeCard {...this.HomeCardBecklog}/>
-
                     <HomeCard {...this.HomeCardSprnts}/>
                 </div>
             </div>

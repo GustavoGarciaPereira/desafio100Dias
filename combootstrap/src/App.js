@@ -9,12 +9,10 @@ class App extends Component {
     const logo = 'Gustavo'
     return (
       <div className="container">
-
         <NavBar logo = {logo}/>
         <Home/>
       </div>
     );
   }
 }
-
 export default App;

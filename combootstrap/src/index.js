@@ -9,9 +9,6 @@ import Sprints from './container/Sprints';
 import Backlog from './container/Backlog';
 import Home from './container/Home';
 
-
-
-
 ReactDOM.render(
     <Router history={hashHistory}>
         <Route path = '/' component={App}>
